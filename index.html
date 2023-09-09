@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>personal and real-time data attribute</title>
+</head>
+<body>
+    <main>
+        <section class="slack-info">
+            <img src="slack-img.jpg" alt="Olowo290" data-testid="slackDisplayImage">
+            <p data-testid="slackUserName">Olowo290</p>   
+        </section>
+
+        <section class="time-info">
+           
+                <label for="dayoftheweek"> Day: </label>
+                <p data-testid="currentDayOfTheWeek" id="dayoftheweek">today</p>
+            
+                <label for="currenttime"> Time in milisecond : </label>
+                <p id="currenttime" data-testid="currentUTCTime">1694293569510</p>
+            
+        </section>
+
+        <section class="track-info">
+            <p data-testid="myTrack">Frontend</p>
+        </section>
+
+        <section class="links">
+                <a href="https://github.com/Olowo290/HNGx-stage-one" data-testid="githubURL" id="btn">checkout the code<i class="fa-brands fa-github"></i></a>
+        
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
